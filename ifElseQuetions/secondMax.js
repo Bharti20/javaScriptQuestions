@@ -1,6 +1,4 @@
 let readlineSync = require('readline-sync');
-
-
 let a=readlineSync.question("enter a number--");
 let b=readlineSync.question("enter a number--");
 let c=readlineSync.question("enter a number--");
@@ -27,11 +25,3 @@ if(a>b && a>c){
 }else{
     console.log(c);
 }
-    
-
-    
-        
-    
-
-   
-       
