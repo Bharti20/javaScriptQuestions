@@ -1,5 +1,5 @@
 const promise = new Promise((resolve, reject)=> {
-    let string = "iharat"
+    let string = "bharati"
     let i = 0
     var array = []
     while(i<string.length){
@@ -11,8 +11,10 @@ const promise = new Promise((resolve, reject)=> {
                         count = count + 1
                     }index++
             }
-            array.push(string[i])
-            array.push(count)
+            if (!(array.includes (string[i]))){
+                array.push(string[i])
+                array.push(count)
+            }
         }i++
     }
     resolve(array)
