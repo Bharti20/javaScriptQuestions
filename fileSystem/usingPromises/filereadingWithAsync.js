@@ -9,4 +9,4 @@ async function reaFileFun(fileName) {
     const data = await fs.readFile(fileNam)
     console.log(data.toString())
 };
-reaFileFun('demo.txt')
+reaFileFun('grocery.txt')
