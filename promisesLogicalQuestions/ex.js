@@ -14,10 +14,11 @@
 //    console.log(error)
 // })
 
-const promis = new Promise((resolve, reject) => {
-    reject("work done")
-})
-.catch(massage => console.log(massage))
-.then(massage => console.log(massage))
+
+// const promise = new Promise((resolve, reject) => {
+
+// })
+// console.log(typeof(promise))
 
 
+console.log(1 *'b')

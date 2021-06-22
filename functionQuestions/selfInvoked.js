@@ -10,5 +10,3 @@ console.log('kumari')
 //     console.log(a + 6)
 // })(3);
 // console.log('function value')
-
-
