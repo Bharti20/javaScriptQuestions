@@ -6,7 +6,11 @@ var dic = {
     'bat':3
 }
 var obj = {}
-var array
+var array =[]
 for(i in dic) {
-    i, dic[i]
+    if(!(array.includes(i))) {
+        array.push(i)
+        obj[i] = dic[i]
+    }
 }
+console.log(obj)
