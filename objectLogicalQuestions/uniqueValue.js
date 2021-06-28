@@ -17,3 +17,4 @@ for(i in obj) {
     }
 }
 console.log(array)
+
