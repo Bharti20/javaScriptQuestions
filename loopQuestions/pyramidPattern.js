@@ -1,10 +1,16 @@
   let i = 1
-  while(i<6){
+  let index = 6
+  while(i<=index){
       let j = 0
-      concati = ""
-      while(j<i){
-          concati+= ""
+      var concati = ""
+      while(j<index-i){
+          concati+= " "
           j++
-      }concati+= "*"
+      }
+      let z = 0
+      while(z<i*2-1) {
+          concati+="*"
+          z++
+      }console.log(concati)
       i++
   }
