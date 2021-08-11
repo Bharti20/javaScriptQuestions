@@ -11,3 +11,4 @@ while(i<array.length-1) {
     j++
 };
 console.log(new_arr)
+
