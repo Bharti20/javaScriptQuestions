@@ -7,3 +7,4 @@ if(alpha=='a' || alpha=='i' || alpha =='0' || alpha=='u' || alpha=='e'){
 }else{
     console.log("consonant")
 }
+
