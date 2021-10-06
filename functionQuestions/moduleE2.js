@@ -1,0 +1,1 @@
+require('./moduleExport').sayHi()
